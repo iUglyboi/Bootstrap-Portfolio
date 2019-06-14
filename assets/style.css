@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box
+}
+
+
+.col-12{ 
+    background-color: purple
+}
+
+.col-8 {
+    background-color: red;
+}
+.container{
+    margin: 0;
+}
+.auth-image{
+    width: 200px;
+    float: left;
+    margin-right: 30px;
+
+
+}
+.body-text{
+ padding: 60px;
+ margin-bottom: 4em;
+}
+footer{
+    width:100%;
+    text-align: center;
+    padding-top: 60px;
+    background-color: lightblue;
+    bottom: 0;
+    position: absolute;
+}
