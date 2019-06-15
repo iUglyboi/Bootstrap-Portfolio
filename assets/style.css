@@ -4,18 +4,21 @@
 }
 
 html {
-    box-sizing: border-box
+    box-sizing: border-box;
+
 }
 
 
 .col-12{ 
-    background-color: purple
+    background-color: purple;
+    min-height: 100vh;
 }
 
 .col-8 {
     background-color: red;
 }
-.container{
+.container-class{
+    flex: 1;
     margin: 0;
 }
 .auth-image{
@@ -29,11 +32,59 @@ html {
  padding: 60px;
  margin-bottom: 4em;
 }
-footer{
+footer {
     width:100%;
     text-align: center;
     padding-top: 60px;
     background-color: lightblue;
-    bottom: 0;
-    position: absolute;
+    display: flex;
+    flex-direction: column;
+}
+.work{
+    width:45%;   
+}
+
+.work img {
+    width: 100%;
+}
+#contact-form ul {
+    margin-bottom: 20px;
+  }
+  
+  #contact-form li {
+    margin-bottom: 10px;
+  }
+  
+  label,
+  input[type=text],
+  input[type=email],
+  textarea {
+    display: block;
+    width: 100%;
+  }
+  
+  input[type=text],
+  input[type=email],
+  textarea {
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+    border: 1px solid #dddddd;
+  }
+  
+  textarea {
+    height: 200px;
+  }
+  
+  input[type=submit] {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+    background: #4aaaa5;
+    border: 0 none;
+  }
+button{
+    width: 100%;
+    margin-bottom: 30px;
 }
